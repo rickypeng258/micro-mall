@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: micro-mall-goods
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 47.114.114.208:8848
+        username: nacos
+        password: nacos
+      discovery:
+        #Nacos的注册地址
+        server-addr: 47.114.114.208:8848
+        username: nacos
+        password: nacos
